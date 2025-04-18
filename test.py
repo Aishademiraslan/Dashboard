@@ -3,14 +3,14 @@ import requests
 import pandas as pd
 
 file_paths = [
-    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\historical data for Giulia\\Raitan\\192.168.28.2.csv',
-    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\historical data for Giulia\\Raitan\\192.168.28.3.csv',
-    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\historical data for Giulia\\Raitan\\192.168.29.2.csv',
-    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\historical data for Giulia\\Raitan\\192.168.30.2.csv',
-    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\historical data for Giulia\\Raitan\\192.168.30.3.csv',
-    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\historical data for Giulia\\Raitan\\192.168.31.2.csv',
-    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\historical data for Giulia\\Raitan\\192.168.32.2.csv',
-    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\historical data for Giulia\\Raitan\\192.168.33.2.csv'
+    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\Raitan\\192.168.28.2.csv',
+    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\Raitan\\192.168.28.3.csv',
+    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\Raitan\\192.168.29.2.csv',
+    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\Raitan\\192.168.30.2.csv',
+    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\Raitan\\192.168.30.3.csv',
+    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\Raitan\\192.168.31.2.csv',
+    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\Raitan\\192.168.32.2.csv',
+    'C:\\Users\\aide\\OneDrive - Conscia A S\\Documents\\Conscia_pdu\\Raitan\\192.168.33.2.csv'
 ]
 
 def get_merged_data(file_paths):
