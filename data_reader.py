@@ -22,7 +22,6 @@ def read(SELECT, FROM, WHERE=None, ORDER_BY=None):
         SQLite rows in a list of tuples
     
         
-    Change address in con to the address of the database on your own machine since this is for mine ~ jath
     '''
     con = sqlite3.connect("database.db")
     cur = con.cursor()
