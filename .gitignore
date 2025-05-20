@@ -1,0 +1,9 @@
+.env
+.intern_project_venv
+env/
+intern_project_venv/
+ENV/
+env.bak/
+intern_project_venv.bak/
+/.intern_project_venv/
+**/__pycache__/
