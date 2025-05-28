@@ -6,7 +6,7 @@ layout = dash.html.Div(
     style={'height': '100vh', 'textAlign': 'center', 'paddingTop': '20vh'},
     children=[
         dash.html.H1(
-            "Conscia Power Automation Platform",
+            "xxx", ## Removed because it is confidential
             style={'color': '#FFFFFF'}
         ),
         dash.html.P(
