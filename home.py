@@ -6,7 +6,7 @@ layout = dash.html.Div(
     style={'height': '100vh', 'textAlign': 'center', 'paddingTop': '20vh'},
     children=[
         dash.html.H1(
-            "xxx", ## Removed because it is confidential
+            "xxx", #"x" used because original credentials were removed due to confidentiality
             style={'color': '#FFFFFF'}
         ),
         dash.html.P(
