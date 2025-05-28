@@ -75,15 +75,14 @@ def timestamp(modifier="default"):
 
 
 
-#########################################################################################################
-### NAVN SKAL ÆNDRES SÅ DET IKKE ER DET SAMME NAVN SOM FUNTKIONEN I KLASSEN PX2_2493_api!!!!!!!!!!!!!
+
 def get_data(endpoints, endpoints_to_racks, choice):
     data = []
     for endpoint in endpoints:
-        agent = rpc.Agent("http", endpoint, "admin", "Suse8181", disable_certificate_verification=True)
+        agent = rpc.Agent("http", endpoint, "x", "x", disable_certificate_verification=True) # Username and password redacted for security reasons
         pdu = rpc.pdumodel.Pdu("/model/pdu/0", agent)
         api = PX2_2493_api(agent, pdu, endpoint, endpoints_to_racks[endpoint], choice)
         endpoint_data = api.measuring_iterator()
         data.append(endpoint_data)
     return data
-#########################################################################################################
+
